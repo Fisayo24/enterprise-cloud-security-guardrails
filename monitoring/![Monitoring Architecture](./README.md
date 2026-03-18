@@ -1,17 +1,14 @@
-# Monitoring Module
+## Monitoring
 
-This section handles logging and monitoring for the cloud environment.
+The monitoring module provides visibility into the cloud environment using AWS CloudWatch.
 
-## Architecture
+It enables centralized logging, auditing, and alerting to ensure security and operational awareness.
+
+### Key Features
+- CloudWatch Log Groups for centralized logging
+- Log retention policies
+- Monitoring for security and compliance
+
+### Architecture
 
 ![Monitoring Architecture](./monitoring-architecture.png)
-
-## Description
-
-This module uses AWS CloudWatch to collect logs and monitor system activity.  
-It helps ensure visibility, auditing, and security across the infrastructure.
-
-## Components
-- CloudWatch Log Groups
-- Log retention policies
-- Centralized logging
