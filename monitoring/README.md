@@ -11,7 +11,7 @@ It helps track system activity, improve visibility, and support security auditin
 
 ## Architecture
 
-![Monitoring Architecture](./monitoring-architecture.png)
+![Monitoring Architecture](../monitoring-architecture.png)
 
 ## Why This Matters
 Monitoring ensures that all system activities are logged and can be audited for security and compliance purposes.
