@@ -1,7 +1,17 @@
-# Enterprise Cloud Security Guardrails
+# Monitoring Module
 
-## Architecture Diagram
+This section handles logging and monitoring for the cloud environment.
 
-![Architecture Diagram](./architecture.png)
+## Architecture
 
-This project implements security guardrails using Terraform, AWS IAM policies, and CloudWatch monitoring.
+![Monitoring Architecture](./monitoring-architecture.png)
+
+## Description
+
+This module uses AWS CloudWatch to collect logs and monitor system activity.  
+It helps ensure visibility, auditing, and security across the infrastructure.
+
+## Components
+- CloudWatch Log Groups
+- Log retention policies
+- Centralized logging
